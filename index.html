@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Informações sobre o Relicario Backup, um app local para uma coleção pessoal.">
+    <title>Relicario Backup — app local</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="site-header">
+      <a class="brand" href="index.html">Relicario Backup</a>
+      <nav aria-label="Páginas informativas">
+        <ul>
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="privacidade.html">Privacidade</a></li>
+          <li><a href="termos.html">Termos de uso</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="intro" aria-labelledby="titulo">
+        <p class="eyebrow">Informação pública</p>
+        <h1 id="titulo">Backup pessoal para uma coleção local.</h1>
+        <p class="lead">O Relicario Backup é um app local para organizar uma coleção pessoal e preparar cópias de segurança controladas pelo próprio responsável.</p>
+      </section>
+
+      <section class="grid" aria-label="Como o projeto funciona">
+        <article class="card">
+          <h2>O app</h2>
+          <p>A aplicação trabalha com os dados da coleção no ambiente local do responsável. O uso é estritamente pessoal; não oferece cadastro público nem serviço público de catálogo.</p>
+        </article>
+        <article class="card">
+          <h2>O backup</h2>
+          <p>Quando a integração é autorizada e executada, o projeto usa a API do Google Drive com o escopo <code>drive.file</code>, limitado aos arquivos que o app cria ou aos quais o usuário dá acesso.</p>
+        </article>
+        <article class="card">
+          <h2>Controle</h2>
+          <p>Quando ativado, o backup é conferido e a retenção remove somente cópias criadas pela integração, conforme a regra do projeto. O resultado de cada execução depende da configuração e das condições do momento.</p>
+        </article>
+      </section>
+
+      <section class="note" aria-labelledby="estado">
+        <h2 id="estado">Uso pessoal</h2>
+        <p>O Relicario Backup roda no computador do responsável e é destinado a uma coleção privada. Estas páginas apenas apresentam o app e seus limites para uma eventual configuração dos links informativos.</p>
+        <p>O backup, quando desejado, depende de configuração e autorização do responsável. Consulte a <a href="privacidade.html">política de privacidade</a> e os <a href="termos.html">termos de uso</a>.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Relicario Backup · uso estritamente pessoal</p>
+      <p>Contato do responsável indicado na tela de consentimento Google.</p>
+    </footer>
+  </body>
+</html>

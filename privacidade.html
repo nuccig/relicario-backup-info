@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Política de privacidade informativa do Relicario Backup.">
+    <title>Privacidade — Relicario Backup</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="site-header">
+      <a class="brand" href="index.html">Relicario Backup</a>
+      <nav aria-label="Páginas informativas">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="privacidade.html" aria-current="page">Privacidade</a></li>
+          <li><a href="termos.html">Termos de uso</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <article>
+        <p class="eyebrow">Política informativa</p>
+        <h1>Privacidade</h1>
+        <p class="lead">Esta página explica quais dados pertencem ao app local, o que pode seguir para um backup autorizado e quais dados técnicos podem existir na hospedagem destas páginas.</p>
+
+        <h2>Escopo do Relicario Backup</h2>
+        <p>O Relicario Backup é usado pelo responsável para administrar uma coleção pessoal em uma aplicação local. Os dados da coleção e os tokens OAuth não são enviados para estas páginas estáticas. Esta hospedagem não oferece cadastro, login ou formulário.</p>
+
+        <h2>Google Drive e OAuth</h2>
+        <p>Se o responsável concluir o consentimento e executar a integração, o projeto usa a API do Google Drive com o escopo <code>drive.file</code>. Esse escopo limita a integração a arquivos criados pelo app ou selecionados pelo usuário para uso com ele; não é um pedido de leitura indiscriminada do Drive.</p>
+        <p>Nessa execução, os dados da coleção incluídos no backup e os metadados necessários podem ser enviados para uma pasta exclusiva na conta Drive do próprio responsável. A integração foi desenhada para reconhecer essa pasta e manter o backup separado. O uso efetivo depende de configuração e autorização do responsável. O token de renovação deve permanecer em armazenamento externo protegido e não é recebido por estas páginas.</p>
+
+        <h2>Retenção e compartilhamento</h2>
+        <p>Quando a rotina estiver habilitada, a regra prevista permite a exclusão permanente somente de cópias criadas pela integração, identificadas por ela e com mais de sete dias. Cópias que não atendam a esses critérios não são alvo da regra. Essa funcionalidade depende de uma execução real; estas páginas não afirmam que backup, exclusão ou restauração já ocorreram.</p>
+        <p>O uso previsto é restrito ao responsável. Estas páginas não compartilham dados da coleção com terceiros e não recebem esses dados. O Google Drive e a hospedagem eventualmente escolhidos têm suas próprias políticas e controles.</p>
+
+        <h2>Revogação do acesso</h2>
+        <p>O responsável pode revogar o acesso do app nas configurações da própria Conta Google, na área de conexões com apps de terceiros. A revogação impede novos usos dessa autorização, mas não apaga automaticamente cópias que já tenham sido salvas no Drive. Essas cópias permanecem até que o responsável as exclua ou que uma rotina de retenção autorizada as remova.</p>
+
+        <h2>Dados técnicos da hospedagem</h2>
+        <p>As páginas não foram configuradas com cookies próprios, analytics, pixels, fontes remotas ou rastreamento. Ainda assim, o provedor da hospedagem pode processar dados técnicos de acesso, como endereço IP, data, hora, navegador e registros de segurança. Em GitHub Pages, consulte a <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">política de privacidade do GitHub</a> para entender os registros e serviços da plataforma. O Google e outros provedores eventualmente envolvidos também podem processar dados segundo suas próprias políticas; estas páginas não prometem coleta zero fora do seu conteúdo estático.</p>
+
+        <h2>Contato</h2>
+        <p>Contato do responsável indicado na tela de consentimento Google.</p>
+        <p>Se o contato público mudar, esta página deve ser atualizada antes de qualquer uso dela como URL informativa do app.</p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p><a href="index.html">Voltar ao início</a> · <a href="termos.html">Termos de uso</a></p>
+      <p>Relicario Backup · uso estritamente pessoal</p>
+    </footer>
+  </body>
+</html>
